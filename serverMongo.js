@@ -27,7 +27,7 @@ const MONGO = {
 
 const app = express()
 
-console.log("testmw)
+console.log("teskktmw)
 
 
 app.use(cors())
