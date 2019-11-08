@@ -10,6 +10,7 @@ const mongoHost = process.env.MONGO_HOST || "127.0.0.1"
 const mongoPort = process.env.MONGO_PORT || "27017"
 const mongoDB = process.env.MONGO_DATABASE || "odata"
 
+
 const SERVER = {
     port: 1338
 }
@@ -23,7 +24,11 @@ const MONGO = {
 }
 
 
+
 const app = express()
+
+console.log("testmw)
+
 
 app.use(cors())
 app.use(bodyParser.json())
